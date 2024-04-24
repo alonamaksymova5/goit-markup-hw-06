@@ -76,6 +76,7 @@ img {
 
 .title-container {
     display: flex;
+    align-items: center;
 }
 
 .logo-menu {
@@ -98,7 +99,6 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #2e2f42;
-    padding-right: 76px;
 }
 
 .title-list {
@@ -1083,6 +1083,10 @@ img {
         padding-bottom: 0;
     }
 
+    .title-logo {
+        margin-right: 120px;
+    }
+
     .title-list {
         display: flex;
         gap: 40px;
@@ -1121,13 +1125,7 @@ img {
     .address-menu {
         font-style: normal;
         margin-left: auto;
-        display: flex;
-    }
-
-    .address-list {
-        display: flex;
         flex-direction: column;
-        margin-top: 16px;
         gap: 12px;
     }
 
@@ -1265,9 +1263,8 @@ img {
         padding-right: 15px;
     }
 
-    .title {
-        padding-top: 0;
-        padding-bottom: 0;
+    .title-logo {
+        margin-right: 76px;
     }
 
     .nav-link:hover,
@@ -1281,6 +1278,7 @@ img {
 
     .address-list {
         display: flex;
+        flex-direction: row;
         gap: 40px;
     }
 
