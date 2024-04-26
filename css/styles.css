@@ -93,7 +93,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
 }
 
 .tiny-name-logo {
@@ -167,11 +166,10 @@ img {
 }
 
 .nav-menu-mobile {
-    padding-left: 9px;
 }
 
 .title-list-mob {
-    margin-bottom: 24px;
+
 }
 
 .item-mob-menu:not(:last-child) {
@@ -186,12 +184,17 @@ img {
     color: #2e2f42;
 }
 
+.address-menu-mobile {
+    
+}
+
 .address-mob-list {
     
 }
 
 .address-menu-item-mob:not(:last-child) {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
+    
 }
 
 .address-menu-link-mob {
@@ -201,13 +204,13 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
 }
 
 .soc-list-mob {
     display: flex;
     gap: 40px;
     justify-content: center;
+    margin-top: 48px;
 }
 
 .soc-item-mob {
@@ -667,7 +670,6 @@ img {
     align-items: baseline;
 }
 
-
 .container-logo {
     margin-bottom: 72px;
 }
@@ -712,7 +714,7 @@ img {
 
 .footer-soc-media {
     text-align: center;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 .footer-soc-title {
@@ -1210,6 +1212,7 @@ img {
     }
 
     .footer-soc-media {
+        margin-left: 24px;
     }
 
     .footer-soc-title {
@@ -1410,6 +1413,7 @@ img {
     }
 
     .footer-soc-media {
+        margin-left: 120px;
     }
 
     .footer-soc-title {
